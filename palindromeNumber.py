@@ -5,6 +5,8 @@ class Solution(object):
             num.append(i)
         if num[::] == num[::-1]:
             return True
+        else:
+            return False
 
 # Test cases
 testCase = Solution()
